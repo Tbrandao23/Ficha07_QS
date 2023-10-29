@@ -9,6 +9,8 @@ public class Mark {
         this.mark = mark;
     }
 
+
+
     public int getNumStudent() {
         return numStudent;
     }
@@ -25,8 +27,6 @@ public class Mark {
         this.mark = mark;
     }
 
-    public void insertMarkCU(int numStudent, double mark){
 
-    }
 
 }
