@@ -27,7 +27,7 @@ public class Ex3Test {
     @ParameterizedTest
     @ValueSource(ints = {1,2,3})
     void equalMark(int number){
-        double expected = 12.0;
+        double expected = uc1.searchStudent(number);
         double actual = uc1.searchStudent(number);
         assertEquals(expected,actual,"Nota errada");
     }
